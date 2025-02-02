@@ -74,16 +74,32 @@ Install paytmDemo using one of the following methods:
 ```
 3. Create a file ".env" inside backend folder and add two environment variables
 -   DATABASE_URL (mongodb url connection string)
--   JWT_SECRET    (a string or a key)
+-   JWT_SECRET (a string or a key)
 
 
 ###  Usage
 Run paytmDemo using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
+- Inside backend folder run
 ```sh
 ❯ npm run dev
 ```
+
+- Open a new terminal and inside frontend folder run
+```sh
+❯ npm run dev
+```
+
+- Frontend should be available at
+```sh
+❯ localhost:5173
+```
+- Backend should be available at
+```sh
+❯ localhost:3000
+```
+
 ---
 
 ##  Acknowledgments
