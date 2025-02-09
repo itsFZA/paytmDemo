@@ -9,11 +9,14 @@
 	<img src="https://img.shields.io/github/languages/count/itsFZA/paytmDemo?style=default&color=0080ff" alt="repo-language-count">
 </p>
 
-<img src="./images/SignUp.png" width="200" height="300" style="padding:5px"/> 
-<img src="./images/List.png" width="300" height="300" style="padding:5px"/>
-<img src="./images/SendMoney1.png" width="350" height="300" style="padding:5px"/>
-<img src="./images/SendMoney2.png" width="350" height="300" style="padding:5px"/>
-<img src="./images/sendMoney3.png" width="350" height="300" style="padding:5px"/>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <img src="./images/SignUp.png" width="200" height="300" style="padding:5px"/> 
+    <img src="./images/List.png" width="300" height="300" style="padding:5px"/>
+    <img src="./images/SendMoney1.png" width="350" height="300" style="padding:5px"/>
+    <img src="./images/SendMoney2.png" width="350" height="300" style="padding:5px"/>
+    <img src="./images/sendMoney3.png" width="350" height="300" style="padding:5px"/>
+</div>
+
 
 ##  Project Structure
 
