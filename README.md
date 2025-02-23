@@ -9,7 +9,7 @@
 	<img src="https://img.shields.io/github/languages/count/itsFZA/paytmDemo?style=default&color=0080ff" alt="repo-language-count">
 </p>
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
     <img src="./images/SignUp.png" width="200" height="300" style="padding:5px"/> 
     <img src="./images/List.png" width="300" height="300" style="padding:5px"/>
     <img src="./images/SendMoney1.png" width="350" height="300" style="padding:5px"/>
@@ -52,7 +52,6 @@
 
 Before getting started with paytmDemo, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** JavaScript
 - **Package Manager:** Npm
 
 
@@ -67,9 +66,9 @@ Install paytmDemo using one of the following methods:
 ❯ git clone https://github.com/itsFZA/paytmDemo
 ```
 
-2. Navigate to the project directory:
+2. Navigate to the project directory backend:
 ```sh
-❯ cd paytmDemo
+❯ cd paytmDemo/backend
 ```
 
 3. Install the project dependencies:
@@ -80,6 +79,12 @@ Install paytmDemo using one of the following methods:
 ```sh
 ❯ npm install
 ```
+Do the same for frontend
+```sh
+❯ cd paytmDemo/frontend
+❯ npm install
+```
+
 3. Create a file ".env" inside backend folder and add two environment variables
 -   DATABASE_URL (mongodb url connection string)
 -   JWT_SECRET (a string or a key)
